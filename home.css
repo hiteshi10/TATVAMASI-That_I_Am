@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient( circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 90%);
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d19592;
+    background-image: linear-gradient( 69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%);
+    margin: 0;
+    padding: 0%;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    display: flex;
+    position: center;
+    max-width: 100%;
+    max-height: 90%;
+    padding-top: 2px;
+    padding-left: 7px;
+}
+
+.logo2 {
+    width: 15%;
+    height: auto;
+    padding-top: 25px;
+    margin-top: 15px;
+}
+
+.bg_img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0px;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 15px 60px;
+    background: radial-gradient( circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+    max-width: 850px;
+    border-radius: 15px;
+    height: auto;
+}
+
+h2 {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.829), grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    font-weight: 300;
+    text-decoration: solid;
+    font-size: 1.32em;
+    font-family: lora;
+}
+
+p {
+    font-size: 120%;
+    font-family: lora;
+}
+
+strong {
+    color: rgb(58, 58, 58);
+    font-family: nunito;
+}
+
+a {
+    text-decoration: none;
+    font-size: 115%;
+}
+
+.mantra {
+    font-size: 1.12em;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.love {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+    background: linear-gradient( 89.1deg, rgb(251, 0, 83) 15.2%, rgb(179, 146, 231) 98.5%);
+    color: whitesmoke;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+.coder {
+    font-family: monospace;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d19592;
+    background-image: linear-gradient( 69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%);
+    color: white;
+}
+
+#connect {
+    font-family: lora;
+    cursor: pointer;
+}
